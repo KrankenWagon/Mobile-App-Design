@@ -3,7 +3,8 @@
 <!--Programmer:     Caleb Barnhart
     Program Name:   Blood Bowl Calculator-->
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -25,30 +26,32 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:background="#333"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Blood Bowl&#10;Calulator"
-        android:textSize="32sp"
         android:gravity="center"
-        android:textColor="#fff"
         android:padding="10dp"
+        android:text="Blood Bowl&#10;Calulator"
+        android:textColor="#fff"
+        android:textSize="48sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-    />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="900"
+        android:id="@+id/block"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
+        android:background="#900"
         android:text="Block"
-        android:textColor="fff"
+        android:textSize="36sp"
+        android:textColor="#fff"
         android:padding="10dp"
+
+        android:onClick="block"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,12 +61,16 @@
         app:layout_constraintVertical_bias="0.368" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="900"
+        android:id="@+id/skills"
+        android:layout_width="200dp"
+        android:layout_height="72dp"
+        android:background="#900"
         android:text="Skill"
-        android:textColor="fff"
+        android:textSize="36sp"
+        android:textColor="#fff"
         android:padding="10dp"
+
+        android:onClick="skills"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
