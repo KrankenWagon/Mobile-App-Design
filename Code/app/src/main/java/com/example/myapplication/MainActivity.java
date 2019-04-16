@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void block(View view){
-
+        setContentView(R.layout.block);
     }
 
     public void skills(View view){

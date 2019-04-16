@@ -68,7 +68,7 @@
             />
         <EditText
             android:gravity="center"
-            android:id="@+id/attStr"
+            android:id="@+id/attSup"
             android:layout_width="72dp"
             android:layout_height="56dp"
             android:text="3"
@@ -96,7 +96,7 @@
             />
         <EditText
             android:gravity="center"
-            android:id="@+id/attStr"
+            android:id="@+id/defStr"
             android:layout_width="72dp"
             android:layout_height="56dp"
             android:text="3"
@@ -116,7 +116,7 @@
             />
         <EditText
             android:gravity="center"
-            android:id="@+id/attStr"
+            android:id="@+id/defSup"
             android:layout_width="72dp"
             android:layout_height="56dp"
             android:text="3"
