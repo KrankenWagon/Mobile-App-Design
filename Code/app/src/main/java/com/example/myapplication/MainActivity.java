@@ -26,4 +26,7 @@ public class MainActivity extends AppCompatActivity{
     public void calculateBlock(View view){
 
     }
+    public void calculateDodge(View view){
+
+    }
 }
